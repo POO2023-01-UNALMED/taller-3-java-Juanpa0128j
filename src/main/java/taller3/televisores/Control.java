@@ -17,34 +17,34 @@ public class Control {
 		this.tv = tv;
 	}
 	
-	private void canalUp() {
+	public void canalUp() {
 		tv.canalUp();
 
 	}
 	
-	private void canalDown() {
+	public void canalDown() {
 		tv.canalDown();
 	}
 	
-	private void volumeUp() {
+	public void volumeUp() {
 		tv.volumeUp();
 	}
 	
-	private void volumeDown() {
+	public void volumeDown() {
 		tv.volumeDown();
 	}
 	
-	private void turnOn() {
+	public void turnOn() {
 		tv.turnOn();
 		
 	}
 	
-	private void turnOff() {
+	public void turnOff() {
 		tv.turnOff();	
 		
 	}
 	
-	private void setCanal(int canal) {
+	public void setCanal(int canal) {
 		tv.setCanal(canal);
 		
 	}

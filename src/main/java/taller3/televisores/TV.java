@@ -6,7 +6,7 @@ public class TV {
 	private boolean estado;
 	int canal = 1; 
 	private int precio = 500; 
-	private int volumen = 1;
+	int volumen = 1;
 	private static int numTV = 0;
 	
 	public TV(Marca marca, boolean estado){
