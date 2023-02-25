@@ -65,6 +65,11 @@ public class TV {
 		
 	}
 	
+	public void setNumTV(int numTV) {
+		return;
+		
+	}
+	
 	public int getPrecio() {
 		return precio;
 		
