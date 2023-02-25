@@ -7,36 +7,36 @@ public class TV {
 	int canal = 1; 
 	private int precio = 500; 
 	int volumen = 1;
-	private static int numTV = 0;
+	private static int numTV;
 	
 	public TV(Marca marca, boolean estado){
 		this.marca = marca;
 		this.estado = estado;
-		TV.numTV++;
+		numTV = numTV + 1;
 	}
 	
 	public void canalUp() {
 		if(estado == true && canal < 120) {
-			canal++;
+			canal = canal + 1;
 		}
 
 	}
 	
 	public void canalDown() {
 		if(estado == true && canal > 1) {
-			canal--;
+			canal = canal - 1;
 		}
 	}
 	
 	public void volumenUp() {
 		if(estado == true && volumen < 7) {
-			volumen++;
+			volumen = volumen + 1;
 		}
 	}
 	
 	public void volumenDown() {
 		if(estado == true && volumen > 0) {
-			volumen--;
+			volumen = volumen - 1;
 		}
 	}
 	
