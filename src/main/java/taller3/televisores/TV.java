@@ -68,7 +68,7 @@ public class TV {
 	}
 	
 	public static void setNumTV(int numTV) {
-		return;
+		TV.numTV = numTV;
 		
 	}
 	
